@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #eeeeee;
+}
+
+.container_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.container_main_form {
+    display: flex;
+    border-radius: 2px;
+    flex-direction: column;
+    padding: 50px 100px;
+    background-image: linear-gradient( to left, #1fbdda, #197a8b);
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.623);    
+}
+
+.container_main_form h1, label, input,  select, textarea, button, p {
+    width: 400px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    padding: 2px;
+}
+
+.container_main_form input, textarea, select {
+    color: rgb(34, 34, 34);
+}
+
+h1#contactUs {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;   
+}
+
+.container_main_form select, button, input::placeholder {
+    color: #8f8f8f;
+    margin: auto;
+}
+
+button#subButton {
+    cursor: pointer;
+    width: 75px;
+    height: 20px;
+}
+
+button#subButton:hover {
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.623);
+    color: #696969;
+}
+
+p#warning {
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+
+    body {
+        background-image: linear-gradient( to left, #1fbdda, #197a8b);
+    } 
+       
+    .container_main_form {       
+        box-shadow: none;
+        background-image: none;     
+        
+        padding: 0;        
+    }
+
+    .container_main_form h1, label, input,  select, textarea, button, p {
+        width: 300px;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .container_main_form h1, label, input,  select, textarea, button, p {
+        flex-wrap: wrap;
+    }
+}
