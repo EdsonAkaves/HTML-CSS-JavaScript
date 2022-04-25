@@ -1,0 +1,54 @@
+
+body {
+    text-align: center;
+}
+
+.but {
+    font-weight: bold;
+    margin: 3px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #1a1a1a;
+    box-shadow: none;
+    border: none;
+}
+
+div#calculadora {
+    margin: auto;
+    padding: 15px;
+    background-color: #000000;
+    width: 250px;
+    border-radius: 5px;  
+}
+
+input#teste {
+    background-color: #000;
+    border: none;
+}
+
+span#resultado {
+    display: flex;
+    justify-content: flex-end;   
+    height: 1em;
+    font-size: 2em;    
+    color: rgb(236, 236, 236);   
+}
+
+button#igual {
+    background-color: rgb(97, 156, 37);
+}
+
+div#titulo {
+    margin-bottom: 50px;
+}
+
+.verde{
+    color: chartreuse;
+}
+
+button#c {
+    color: red;
+}
+
