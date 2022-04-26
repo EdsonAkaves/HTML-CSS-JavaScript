@@ -1,1 +1,1 @@
-Calculadora criada em HTML, CSS e JavaScript utilizando manipulação de DOM e eventos. Assim como condicional.
+Calculadora criada em HTML, CSS e JavaScript utilizando manipulação de DOM, eventos e estrutura condicional
